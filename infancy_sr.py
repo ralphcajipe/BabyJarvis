@@ -6,4 +6,4 @@ with sr.Microphone() as source:
     speech.adjust_for_ambient_noise(source)
     audio = speech.listen(source)
     inp = speech.recognize_google(audio)
-    print(f'You just said "{inp}".')
+print(f'You just said {inp}.')
