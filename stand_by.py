@@ -1,3 +1,5 @@
+"""Fine-Tune the Speech Recognition Feature"""
+
 import speech_recognition as sr
 
 speech = sr.Recognizer()

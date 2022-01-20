@@ -1,3 +1,5 @@
+"""Test SpeechRecognition"""
+
 import speech_recognition as sr
 
 speech = sr.Recognizer()
